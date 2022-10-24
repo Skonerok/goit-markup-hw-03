@@ -134,6 +134,7 @@ align-items: center;
 .hero {
   text-align: center;
   background: var(--background-color);
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -146,7 +147,6 @@ align-items: center;
   text-transform: uppercase;
   color: var(--secondary-color);
   width: 696px;
-  padding-top: 200px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +190,6 @@ align-items: center;
 .benefits-list {
   display: flex;
   gap: 30px;
-  margin-top:94px;
 }
 
 .benefits-item {
@@ -215,6 +214,10 @@ flex-basis: calc((100% - 30px) / 4);
 }
 
 /* WHAT SECTION */
+.what-section {
+  padding-bottom: 94px;
+}
+
 .what-header {
   font-weight: 700;
   font-size: 36px;
@@ -222,7 +225,7 @@ flex-basis: calc((100% - 30px) / 4);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--header-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .what-list {
@@ -281,20 +284,17 @@ flex-basis: calc((100% - 30px) / 4);
 }
 
 /* FOOTER SECTION */
-.lower-bcg {
+footer {
+  padding: 60px 0 60px 0;
   background: var(--background-color);
 }
 
-.footer-container {
-  padding-top: 60px;
-}
 .logo-white {
   color: #ffffff;
 }
 
-.contact-lower {
-  padding-top: 20px;
-  padding-bottom: 60px;
+address {
+  margin-top: 20px;
 }
 
 .contact-item:not(:last-child) {
@@ -327,7 +327,7 @@ flex-basis: calc((100% - 30px) / 4);
   display: flex;
   gap:8px;
   justify-content: center;
- padding-bottom: 34px;
+ margin-bottom: 50px;
 }
 
 .item-btn {
